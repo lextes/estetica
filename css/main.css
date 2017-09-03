@@ -1,14 +1,26 @@
 
 body{
 
-      background:url(../img/img_back.jpg);
+      background:url(../img/img2.jpg);
       background-repeat: no-repeat;
-      background-size: 100%;
+      background-attachment: scroll;
+      color: white;
+      background-position:center 100px; 
 }
+
+/*div{
+
+	background:url(../img/img_back.jpg);
+	width: 300px;
+	color: white;
+	background-repeat: no-repeat;
+
+}*/
+
+
 
 .containerMain{
 
-      background-image: url("img/img_back.jpg");
       margin-top: 0px;
       margin-left: 120px;
       margin-bottom: 300px;
@@ -18,4 +30,5 @@ body{
 .text{
 
       font-size: 40px;
+      color:black;
 }
