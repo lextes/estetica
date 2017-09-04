@@ -1,11 +1,11 @@
 
 body{
 
-      background:url(../img/img2.jpg);
+      background:url(../img/img_back.jpg);
       background-repeat: no-repeat;
       background-attachment: scroll;
       color: white;
-      background-position:center 100px; 
+      background-position:center 0; 
 }
 
 /*div{
