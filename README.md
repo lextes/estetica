@@ -1,3 +1,3 @@
 # estetica
 
-http://www.bookart.com.mx/estetica.github.io/.
+hhttps://lextes.github.io/estetica.github.io/
