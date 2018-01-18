@@ -1,7 +1,7 @@
 
 body{
 
-      background:url(../img/img_back.jpg);
+      background:url(../img/img3.jpg) top center no-repeat #2d213c;
       background-repeat: no-repeat;
       background-attachment: scroll;
       color: white;
@@ -20,9 +20,10 @@ body{
 
 
 .containerMain{
-      margin-top: 200px;
+      
+
       margin-left: 120px;
-      margin-bottom: 300px;
+      
 
 }
 
@@ -30,4 +31,12 @@ body{
 
       font-size: 40px;
       color:black;
+}
+
+h1 {
+      text-align: center;
+      color: #fff;
+      font-size: 40px;
+      background: rgba(0,0,0,0.4);
+      margin-top: 20px;
 }

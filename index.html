@@ -8,6 +8,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/main2.css">
 
 		<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse bg-faded">
 		  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,6 +32,16 @@
 		    </ul>
 		  </div>
 		</nav>
+
+<style>
+	
+	label{
+		width: 150px;
+		display: inline-block;
+
+	}
+</style>
+
 </head>	
 
 
@@ -42,32 +53,42 @@
        <p>Maestras</p>
        <p>Y mas</p>
     </div>
+
+<form action="send.php" method="post">
+	
+	<label for="nombre">Nombre</label><br>
+	<input type="text" id='nombre' name="nombre" placeholder="Escribe tu nombre" >
+
+	<label for="mail">Email</label><br>
+	<input type="email" name="mail" id='mail' placeholder="Tu mail">
+
+	<label for="edad">Edad</label><br>
+	<input type="number" name="edad" id='edad' min="0">
+
+ 	<label for="calificacion">Calificanos</label><br>
+	<input type="range" name="calificacion" id='calificacion' min='0' max='10' value="0">
+
+	<label for="mensaje">Mensaje</label><br>
+	<textarea name="mensaje" id='mensaje' cols="30" rows="10" ></textarea><br>
+
+	<input type="submit" value="ENVIAR" id="boton">
+</form>
 </div>
 
+
 <div class="containerMain">
-    <div class="text">
-       <p>Divas</p>
-       <p>Y mas</p>
-    </div>
+<form action="https://formspree.io/forza1728@gmail.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
+	
+
 </div>
-<div class="containerMain">
-    <div class="text">
-       <p>Divas</p>
-       <p>Y mas</p>
-    </div>
-</div>
-<div class="containerMain">
-    <div class="text">
-       <p>Divas</p>
-       <p>Y mas</p>
-    </div>
-</div>
-<div class="containerMain">
-    <div class="text">
-       <p>Divas</p>
-       <p>Y mas</p>
-    </div>
-</div>
+
+
+
 
 </body>
 </html>
